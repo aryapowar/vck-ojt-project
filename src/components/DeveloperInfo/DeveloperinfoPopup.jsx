@@ -12,7 +12,7 @@ function DeveloperInfoPopup ({ show, onClose, studentName, studentPhotoUrl, uniq
         <h3 className="popup-title">Developed & Deployed by:</h3>
         <p className="student-name">{studentName}</p>
         <p className="unique-message">{uniqueMessage}</p>
-        <button className="ok-button" onClick={onClose}>Got It!</button> {/* Another close option */}
+        <button className="ok-button" onClick={onClose}>Got It!</button> {/* Anothhher close option */}
       </div>
     </div>
   );

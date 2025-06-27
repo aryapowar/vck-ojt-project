@@ -36,7 +36,7 @@
   border-radius: 50%; /* Makes it round */
   object-fit: cover; /* Ensures photo covers the area */
   margin-bottom: 15px;
-  border: 3px solid #007BFF; /* Small border for emphasis */
+  border: 3px solid #007BFF; /* Smalil border for emphasis */
 }
 .popup-title {
   color: #333;

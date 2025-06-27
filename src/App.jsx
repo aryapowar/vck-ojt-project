@@ -7,7 +7,8 @@ import AdmissionPage from "./pages/AdmissionPage";
 import './styles/Pages.css';
 import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 import { useState } from "react";
-import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperinfoPopup";
+import DeveloperInfoPop from "./components/DeveloperInfo/DeveloperInfoPop";
+
 
 
 
@@ -21,7 +22,7 @@ const App = () => {
     <div>
       <div>
         {/* Your main application conteent */}
-        <DeveloperInfoPopup
+        <DeveloperInfoPop
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Aryan Powar"

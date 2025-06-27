@@ -1,17 +1,17 @@
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-
+import {Link} from "react-router-dom";
 const CoursesPage = () => {
     return (
         <div className="main-layout">
           <Header/>
           <div className="content">
               <div className="page-container" style={{overflow: "auto"}}>
-                <h3>Our Acadamic Programs</h3>
+                <h1>Our Acadamic Programs</h1>
                 <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements</p>
                 <h2>Discover Campus Life</h2>
                 <div className="video-container">
-                  <video controls style={{width: "100%", height: "auto"}} className="course-video">
+                  <video controls width="100%" height="auto" className="course-video">
                     <source src="/videos/study.mp4"/>
                   </video>
                   <p className="video-caption">Get a glimpse of the vibrant academic and social life at Vivekanand College</p>
@@ -95,7 +95,7 @@ const CoursesPage = () => {
                 <p>
                   Have questions about a specific course?
                 </p>
-                <a className="btn" href="/contact">Contact Us!</a>
+                <Link to="/contact" className="btn" >Contact Us!</Link>
               </div>
      
             </div>

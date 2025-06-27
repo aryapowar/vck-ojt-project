@@ -22,7 +22,7 @@ body {
 }
 
 .page-container {
-    /*max-width: 960px;*/
+    
     height: 500px;
     margin: 20px auto;
     padding: 20px;
@@ -38,6 +38,53 @@ body {
     font-size: 2.5em;
 }
 
+.page-container h2 {
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.page-container p {
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.page-container ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.page-container li {
+    margin-bottom: 8px;
+}
+
+.call-to-action {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.call-to-action .btn {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color .3s ease;
+}
+
+.call-to-action .btn:hover {
+    background-color: #00ff88;
+}
 
 .hero-section {
     position: relative;
@@ -73,14 +120,7 @@ body {
     margin-bottom: 15px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
 }
-.page-container h2 {
-    color: #000000;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    font-size: 1.8em;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
-}
+
 
 .hero-overlay-text p {
     color: #ffffff !important;
@@ -89,11 +129,7 @@ body {
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
 }
 
-.page-container p {
-    line-height: 1.6;
-    color: #000000;
-    margin-bottom: 15px;
-}
+
 
 .hero-btn {
     background-color: #28a745;
@@ -102,18 +138,7 @@ body {
     color: #eee;
 }
 
-.page-container ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    padding-inline-start: 40px;
-    unicode-bidi: isolate;
-}
 
-.page-container li {
-    margin-bottom: 8px;
-}
 
 .image-gallery {
     display: grid;
@@ -136,37 +161,49 @@ body {
     transform: scale(1.05);
 }
 
-.call-to-action {
-    text-align: center;
-    margin-top: 40px;
+.admissions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px #0000000d;
 }
 
-.call-to-action .btn {
-    display: inline-block;
-    background-color: #28a745;
-    color: #fff;
-    padding: 12px 25px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color .3s ease;
+
+
+.admissions-table th {
+    background-color: #e9ecef;
+    font-weight: 700;
+    color: #343a40;
 }
 
-.call-to-action .btn:hover {
-    background-color: #00ff88;
+.admissions-table th, .admissions-table td {
+    border: 1px solid #DEE2E6;
+    padding: 12px;
+    text-align: left;
+    font-size: 0.95em;
 }
 
-.page-container h3 {
-    color: #007bff;
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 2.5em;
+
+.admissions-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}  
+.admissions-table tbody tr:hover {
+    background-color: #e9ecef;
 }
 
-.animate-fade-in-up {
-    animation: fadeInUptoBottom 1s ease-out forwards;
-}
 
+.page-container ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style: decimal;
+    color: #555;
+}
+.page-container ol li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
 
 .video-container {
     margin-top: 30px;
@@ -196,63 +233,7 @@ video {
     border-bottom-right-radius: 8px;
 }
 
-.admissions-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    background-color: #f8f9fa;
-    box-shadow: 0 2px 8px #0000000d;
-}
-
-table {
-    display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    unicode-bidi: isolate;
-    border-spacing: 2px;
-    border-color: gray;
-}
-
-.admissions-table th {
-    background-color: #e9ecef;
-    font-weight: 700;
-    color: #343a40;
-}
-
-.admissions-table th, .admissions-table td {
-    border: 1px solid #DEE2E6;
-    padding: 12px;
-    text-align: left;
-    font-size: 0.95em;
-}
-
-th {
-    display: table-cell;
-    vertical-align: inherit;
-    font-weight: bold;
-    text-align: center;
-    unicode-bidi: isolate;
-}
-
-.admissions-table tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
-}  
-.admissions-table tbody tr:hover {
-    background-color: #e9ecef;
-}   
-
-.page-container ol {
-    margin-left: 20px;
-    margin-bottom: 20px;
-    list-style: decimal;
-    color: #555;
-}
-.page-container ol li {
-    margin-bottom: 10px;
-    line-height: 1.6;
-}
+   
 
 @keyframes fadeInUptoBottom {
   from {

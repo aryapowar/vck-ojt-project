@@ -7,7 +7,7 @@ const ContactPage = () => {
             <Header/>
             <div className="content" >
                    <div className="page-container" style={{overflow: "auto"}}>
-                        <h3>Contact Us</h3>
+                        <h1>Contact Us</h1>
                         <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
                         <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements</p>
                         <h2>General Inquiries</h2>

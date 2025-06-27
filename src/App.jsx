@@ -9,6 +9,8 @@ import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 import { useState } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperinfoPopup";
 
+
+
 const App = () => {
   const [showPopup, setShowPopup] = useState(true);
   const handleClosePopup = () => {
@@ -18,12 +20,12 @@ const App = () => {
   return (
     <div>
       <div>
-        {/* Your main application content */}
+        {/* Your main application conteent */}
         <DeveloperInfoPopup
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Aryan Powar"
-          studentPhotoUrl="/images/photo.jpg" // Path tto their photo
+          studentPhotoUrl="/images/photo.jpg" // Path to their photo
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
       </div>
